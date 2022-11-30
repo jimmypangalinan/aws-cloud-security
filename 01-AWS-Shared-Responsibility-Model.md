@@ -39,10 +39,25 @@ Secara garis besar tanggung jawab dalam infrastructure Cloud Computing ini di ba
 
 ## Service characteristics and security responsibility
 
-<p align="center"><img src="./assets/02.png"></p>
-
 ### Infrastructure as a service (IaaS)
 
 - Customer has more flexibility over configuring networking and storage settings
 - Customer is responsible for managing more aspects of the security
 - Customer configures the access controls
+
+### Platform as a service (PaaS)
+
+- Customer does not need to manage the underlying infrastructure
+- AWS handles the operating system, database patching, firewall configuration, and disaster recovery
+- Customer can focus on managing code or data
+
+<p align="center"><img src="./assets/02.png"></p>
+
+### Software as a service (SaaS)
+
+- Sofware is centrally hosted
+- Licensed on a subscription model or pay-as-you-go basis
+- Services are typically accessed via web browser, mobile app, or application programming interface (API)
+- Customers do not need to manage the infrastructure that supports the service
+
+<p align="center"><img src="./assets/03.png"></p>
